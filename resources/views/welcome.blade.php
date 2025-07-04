@@ -32,6 +32,7 @@
       <a href="#" class="hidden lg:flex bg-[#1E88E5] px-5 py-2.5 rounded-full items-center justify-center gap-2 text-white font-semibold text-lg text-poppins hover:bg-white hover:text-black">Masuk<i data-feather="log-in"></i></a>
     </nav>
 
+    {{-- hero section --}}
     <div id="hero-section" class="lg:flex grid lg:gap-10 lg:mt-[-50px] w-full h-screen content-center lg:px-30 px-10">
         <div class="lg:w-[55%] w-full content-center items-center lg:mt-0 mt-30">
             <h1 class="lg:text-7xl text-4xl text-poppins font-bold ">Belajar Jadi <span class="bg-linear-to-r from-[#1E88E5] to-[#54D8F7] inline-block text-transparent bg-clip-text pb-3">Menyenangkan!</span></h1>
@@ -48,6 +49,37 @@
         <div class="lg:w-[45%] mt-5 content-center items-center">
             <img src="/images/hero.png" alt="" class="w-full h-auto">
         </div>
+    </div>
+
+    {{-- info section --}}
+    <div id="info-section" class="w-full h-auto mt-[-50px] flex gap-5 content-center items-center px-30 py-15">
+      <div class="w-[400px] h-auto rounded-[3vw] bg-[#1E88E5] py-5 px-6">
+          <div class="w-43 flex gap-2 bg-white text-black px-3 py-1.5 rounded-full content-center items-center">
+              <i data-feather="book"></i>
+              <h3 class="text-poppins font-semibold text-lg">Soal Latihan</h3>
+          </div>
+          <div class="mt-5 mb-2.5">
+            <h1 class="text-poppins font-semibold text-white text-6xl">10K+</h1>
+          </div>
+      </div>
+      <div class="w-[400px] h-auto rounded-[3vw] bg-[#1E88E5] py-5 px-6">
+          <div class="w-43 flex gap-2 bg-white text-black px-3 py-1.5 rounded-full content-center items-center">
+              <i data-feather="users"></i>
+              <h3 class="text-poppins font-semibold text-lg">Siswa Aktif</h3>
+          </div>
+          <div class="mt-5 mb-2.5">
+            <h1 class="text-poppins font-semibold text-white text-6xl">5K+</h1>
+          </div>
+      </div>
+      <div class="w-[400px] h-auto rounded-[3vw] bg-[#1E88E5] py-5 px-6">
+          <div class="w-57 flex gap-2 bg-white text-black px-3 py-1.5 rounded-full content-center items-center">
+              <i data-feather="user-check"></i>
+              <h3 class="text-poppins font-semibold text-lg">Guru Sukarelawan</h3>
+          </div>
+          <div class="mt-5 mb-2.5">
+            <h1 class="text-poppins font-semibold text-white text-6xl">100+</h1>
+          </div>
+      </div>
     </div>
   </body>
 
