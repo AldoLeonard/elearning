@@ -10,7 +10,7 @@
 
   </head>
   <body class="bg-[#F5F5F5]">
-    <nav class="flex relative justify-between lg:mx-25 mt-5 mx-5">
+    <nav class="flex justify-between items-center z-50 lg:px-25 py-5 px-5">
       <a href="#" class="text-black lg:text-3xl text-2xl text-poppins content-center font-semibold">Logo Web</a>
 
       {{-- hamburger button for mobile --}}
@@ -23,15 +23,34 @@
       </a>
       </div>
 
-      <ul id="nav-menu" class="hidden lg:flex flex-col lg:flex-row absolute lg:static right-0 top-16 z-10 bg-white lg:rounded-full rounded-3xl">
-        <li><a href="#" class="block px-4 py-2 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Beranda</a></li>
-        <li><a href="#" class="block px-4 py-2 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Pelajaran</a></li>
-        <li><a href="#" class="block px-4 py-2 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Leaderboard</a></li>
-        <li><a href="#" class="block px-4 py-2 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Tentang</a></li>
+      <ul id="nav-menu" class="hidden lg:flex flex-col lg:flex-row fixed lg:static right-0 top-16 lg:top-auto z-50 bg-white lg:rounded-full rounded-3xl">
+        <li><a href="#" class="block px-3 py-1.5 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Beranda</a></li>
+        <li><a href="#" class="block px-3 py-1.5 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Pelajaran</a></li>
+        <li><a href="#" class="block px-3 py-1.5 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Leaderboard</a></li>
+        <li><a href="#" class="block px-3 py-1.5 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Tentang</a></li>
       </ul>
-      <a href="#" class="hidden lg:flex bg-[#1E88E5] px-5 rounded-full items-center justify-center gap-2 text-white font-semibold text-lg text-poppins hover:bg-white hover:text-black">Masuk<i data-feather="log-in"></i></a>
+      <a href="#" class="hidden lg:flex bg-[#1E88E5] px-5 py-2.5 rounded-full items-center justify-center gap-2 text-white font-semibold text-lg text-poppins hover:bg-white hover:text-black">Masuk<i data-feather="log-in"></i></a>
     </nav>
+
+    <div id="hero-section" class="flex gap-10 mt-[-50px] w-full h-screen content-center px-25">
+        <div class="w-[55%] content-center items-center">
+            <h1 class="text-7xl text-poppins font-bold ">Belajar Jadi <span class="bg-linear-to-r from-[#1E88E5] to-[#54D8F7] inline-block text-transparent bg-clip-text pb-3">Menyenangkan!</span></h1>
+            <p class="text-2xl text-poppins font-medium text-[#6C6C6C] my-5">Platform belajar online dengan sistem poin, tantangan, dan leaderboard. Dirancang untuk pelajar agar semangat belajar setiap hari.</p>
+              <div class="flex gap-5 mt-5">
+                  <a href="#" class="flex gap-2 bg-[#1E88E5] text-white text-lg px-5 py-2.5 rounded-full text-poppins font-semibold hover:bg-white hover:text-black">
+                    Mulai Belajar
+                    <i data-feather="arrow-right"></i></a>
+                  <a href="#" class="flex gap-2 text-black bg-white text-lg px-5 py-2.5 rounded-full text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white">
+                    Lihat Pelajaran
+                    <i data-feather="book"></i></a>
+              </div>
+        </div>
+        <div class="w-[45%] content-center items-center">
+            <img src="/images/hero.png" alt="" class="w-full h-auto">
+        </div>
+    </div>
   </body>
+
   <script>
   feather.replace();
 
