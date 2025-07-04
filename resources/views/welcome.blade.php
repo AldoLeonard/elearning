@@ -23,7 +23,7 @@
       </a>
       </div>
 
-      <ul id="nav-menu" class="hidden lg:flex flex-col lg:flex-row fixed lg:static right-0 top-16 lg:top-auto z-50 bg-white lg:rounded-full rounded-3xl">
+      <ul id="nav-menu" class="hidden lg:flex flex-col lg:flex-row fixed lg:static right-5 top-20 lg:top-auto z-50 text-center bg-white lg:rounded-full rounded-3xl">
         <li><a href="#" class="block px-3 py-1.5 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Beranda</a></li>
         <li><a href="#" class="block px-3 py-1.5 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Pelajaran</a></li>
         <li><a href="#" class="block px-3 py-1.5 m-2 text-lg text-poppins font-semibold hover:bg-[#1E88E5] hover:text-white rounded-full">Leaderboard</a></li>
