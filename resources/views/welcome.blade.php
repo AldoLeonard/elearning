@@ -53,7 +53,7 @@
 
     {{-- info section --}}
     <div id="info-section" class="w-full h-auto lg:mt-[-50px] mt-10 mb-10 lg:flex grid gap-5 content-center items-center lg:px-30 px-10 py-15">
-      <div class="lg:w-[400px] w-[100%] h-auto lg:rounded-[3vw] rounded-[8vw] bg-[#1E88E5] py-5 px-6">
+      <div class="lg:w-[33%] w-[100%] h-auto lg:rounded-[3vw] rounded-[8vw] bg-[#1E88E5] py-5 px-6">
           <div class="w-43 flex gap-2 bg-white text-black px-3 py-1.5 rounded-full content-center items-center">
               <i data-feather="book"></i>
               <h3 class="text-poppins font-semibold text-lg">Soal Latihan</h3>
@@ -62,7 +62,7 @@
             <h1 class="text-poppins font-semibold text-white text-6xl">10K+</h1>
           </div>
       </div>
-      <div class="lg:w-[400px] w-[100%] h-auto lg:rounded-[3vw] rounded-[8vw] bg-[#1E88E5] py-5 px-6">
+      <div class="lg:w-[33%] w-[100%] h-auto lg:rounded-[3vw] rounded-[8vw] bg-[#1E88E5] py-5 px-6">
           <div class="w-43 flex gap-2 bg-white text-black px-3 py-1.5 rounded-full content-center items-center">
               <i data-feather="users"></i>
               <h3 class="text-poppins font-semibold text-lg">Siswa Aktif</h3>
@@ -71,7 +71,7 @@
             <h1 class="text-poppins font-semibold text-white text-6xl">5K+</h1>
           </div>
       </div>
-      <div class="lg:w-[400px] w-[100%] h-auto lg:rounded-[3vw] rounded-[8vw] bg-[#1E88E5] py-5 px-6">
+      <div class="lg:w-[33%] w-[100%] h-auto lg:rounded-[3vw] rounded-[8vw] bg-[#1E88E5] py-5 px-6">
           <div class="w-57 flex gap-2 bg-white text-black px-3 py-1.5 rounded-full content-center items-center">
               <i data-feather="user-check"></i>
               <h3 class="text-poppins font-semibold text-lg">Guru Sukarelawan</h3>
